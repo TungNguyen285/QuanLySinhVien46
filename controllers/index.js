@@ -31,3 +31,9 @@ var renderSinhVien = function(){
 }
 
 renderSinhVien();
+
+
+//user A
+var capNhatSinhVien = function( id, sinhVienUpdate){
+    console.log('Cập nhật sinh viên ' + id);
+}
