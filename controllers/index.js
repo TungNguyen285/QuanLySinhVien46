@@ -49,3 +49,7 @@ var themSinhVien = function () {
 //git commit -m "viết chức năng xóa sinh viên"
 //git push
 var list = [];
+
+var phong_f = function () {
+  console.log("kakakaka");
+};
