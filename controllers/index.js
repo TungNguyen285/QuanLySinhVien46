@@ -36,6 +36,11 @@ renderSinhVien();
 var xoaSinhVien = function (idSinhVien) {
   console.log("xóa sinh viên" + idSinhVien);
 };
+
+//user A
+var capNhatSinhVien = function (id, sinhVienUpdate) {
+  console.log("Cậpnhật sinh viên " + id);
+};
 var themSinhVien = function () {
   console.log("thêm sinh viên");
 };
@@ -43,6 +48,4 @@ var themSinhVien = function () {
 //git add -A
 //git commit -m "viết chức năng xóa sinh viên"
 //git push
-var capNhatDuLieu = function () {
-  console.log("cập nhật");
-};
+var list = [];
